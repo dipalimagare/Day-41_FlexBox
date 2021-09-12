@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox cards</title>
+    <style>
+      .cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+      }
+      .card {
+        flex: 0 0 200px;
+        margin: 10px;
+        border: 1px solid black;
+        box-shadow: 3px 3px 3px 0px blueviolet;
+      }
+      .card img {
+        max-width: 100%;
+      }
+      .card .content {
+        padding: 0 20px 20px;
+      }
+      button {
+        background: gray;
+        border: 0;
+        color: white;
+        padding: 10px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cards">
+      <article class="card">
+        <img src="../assets/1m.jpg" alt="flower" />
+        <div class="content">
+          <h3>Seamlessly visualize quality</h3>
+          <p>
+            Collaboratively administrate empowered markets via plug-and-play
+            networks
+          </p>
+          <button>Here why</button>
+        </div>
+      </article>
+      <article class="card">
+        <img src="../assets/25m.jpg" alt="mountain" />
+        <div class="content">
+          <h3>Completely Synergize</h3>
+          <p>
+            Dramatically engage seamlessly visualize quality intellectual
+            capital without superior collaboration and idea-sharing
+          </p>
+          <button>Here why</button>
+        </div>
+      </article>
+      <article class="card">
+        <img src="../assets/9m.jpg" alt="bird" />
+        <div class="content">
+          <h3>Dynamically Procrastinate</h3>
+          <p>
+            Completely synergize resource taxing relationships via premier niche
+            markets.
+          </p>
+          <button>Here why</button>
+        </div>
+      </article>
+      <article class="card">
+        <img src="../assets/12m.jpg" alt="boat" />
+        <div class="content">
+          <h3>Sanity check</h3>
+          <p>
+            Objectively innovate empowered manufactured products whereas
+            parallel platforms.
+          </p>
+          <button>Here why</button>
+        </div>
+      </article>
+    </div>
+  </body>
+</html>
